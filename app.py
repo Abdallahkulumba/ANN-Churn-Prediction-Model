@@ -69,3 +69,15 @@ if prediction_proba > 0.5:
     st.write('The customer is likely to churn.')
 else:
     st.write('The customer is not likely to churn.')
+
+
+# Sidebar: About the Author Section
+st.sidebar.write("## About the Author")
+st.sidebar.write("""
+**Author:** Sserujja Abdallah Kulumba  
+**Affiliation:** Islamic University of Technology  
+**Email:** abdallahkulumba@iut-dhaka.edu  
+**GitHub:** [github.com/Abdallahkulumba](https://github.com/Abdallahkulumba)  
+**LinkedIn:** [linkedin.com/in/Abdallahkulumba](https://www.linkedin.com/in/abdallah-kulumba-sserujja/)  
+**Facebook:** [facebook.com/Abdallahkulumba](https://www.facebook.com/abdallah.ed.ak)  
+""")
