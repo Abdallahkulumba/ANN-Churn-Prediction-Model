@@ -21,7 +21,7 @@ with open('scaler.pkl', 'rb') as file:
 
 
 ## streamlit app
-st.title("Abdallah's Churn Prediction")
+st.title("Churn Prediction ANN Model")
 
 # User input
 geography = st.selectbox('Geography', onehot_encoder_geo.categories_[0])
